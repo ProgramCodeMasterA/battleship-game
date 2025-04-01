@@ -6,7 +6,7 @@ import os
 #Ship Class
 class Ship:
     def __init__(self, size, orientation, location):
-    self.size = size
+        self.size = size
     
     if orientation == 'horizontal' or orientation == 'vertical':
         self.orientation = orientation
@@ -15,7 +15,7 @@ class Ship:
     
     if orientation == 'horizontal':
         if location['row'] in range(row_size):
-        self.coordinates = []
+            self.coordinates = []
         for index in range(size):
             if location['col'] + index in range(col_size):
                 self.coordinates.append({'row': location['row'], 'col': location['col'] + index})
@@ -107,6 +107,7 @@ def search_locations(size, orientation):
                     if 1 not in [board[i][c] for i in range(r, r+size)]:
                         locations.append({'row': r, 'col': c})
 
+# Add check location function
 if not locations:
     return 'None'
 else:
@@ -125,25 +126,25 @@ def random_location():
 
 def get_row():
     while True:
-    try:
-        guess = int(input("Row Guess: "))
-        if guess in range(1, row_size + 1):
-            return guess - 1
-        else:
-        print("\nOops, that's not even in the ocean.")
-    except ValueError:
-        print("\nPlease enter a number")
+        try:
+            guess = int(input("Row Guess: "))
+            if guess in range(1, row_size + 1):
+                return guess - 1
+            else:
+                print("\nOops, that's not even in the ocean.")
+        except ValueError:
+            print("\nPlease enter a number")
 
 def get_col():
     while True:
-    try:
-        guess = int(input("Column Guess: "))
-        if guess in range(1, col_size + 1):
-            return guess - 1
-        else:
-            print("\nOops, that's not even in the ocean.")
-    except ValueError:
-        print("\nPlease enter a number")
+        try:
+            guess = int(input("Column Guess: "))
+            if guess in range(1, col_size + 1):
+                return guess - 1
+            else:
+                print("\nOops, that's not even in the ocean.")
+        except ValueError:
+            print("\nPlease enter a number")
 
 # Create the ships
 
@@ -158,6 +159,7 @@ while temp < num_ships:
     del temp
 
 # Play Game
+# ADd play game function
 os.system('clear')
 print_board(board_display)
 
@@ -172,7 +174,7 @@ for turn in range(num_turns):
         guess_coords['col'] = get_col()
         if board_display[guess_coords['row']][guess_coords['col']] == 'X' or \
             board_display[guess_coords['row']][guess_coords['col']] == '*':
-        print("\nYou guessed that one already.")
+            print("\nYou guessed that one already.")
     else:
         break
 
