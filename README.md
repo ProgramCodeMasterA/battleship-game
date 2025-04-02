@@ -1,4 +1,4 @@
-# Top Quiz
+# Battleships Game
 
 ## Description
 This is the Battleships Game project, a program with the purpose of offering ?????>
@@ -65,14 +65,17 @@ This site can also be cloned to make a local copy that can be launched via VS Co
 
 ## Credits
 ### Content
-- Inspiration for the site design oriniated from w3schools, HTML tutorial link can be found here: https://www.w3schools.com/html/default.asp
-- ?????>
-
-### Media
+- Inspiration for the Object Oreinted programming design oriniated from w3schools, Python tutorial link can be found here: https://www.w3schools.com/python/python_classes.asp
 - ?????>
 
 
 ## Acknowledgements
-- ??????>
-- Wikipedia for battleship game board layout, https://en.wikipedia.org/wiki/Battleship_(game)
+- code created by User cloud2236863496 from the codecademy discussion forum website was used in the implementation of this project, specifically the freely available Python code was studied and modified to create this project run.py file, link to original code can be found here: https://discuss.codecademy.com/t/excellent-battleship-game-written-in-python/430605
+- Jmanrique-bim github repository "Code_Academy_BattelshipGame" was used in the implementation of this project, specifically the repository Python code was studied and modified to create this project run.py file, link to original github repository code can be found here: https://github.com/Jmanrique-bim/Code_Academy_BattelshipGame/tree/main
+- i-m-itch github repository "Battleship-Terminal-Game" was used in the implementation of this project, specifically the repository Python code was studied and modified to create this project run.py file, link to original github repository code can be found here: https://github.com/i-m-itch/Battleship-Terminal-Game
+- code created by User samcp01 from from the codecademy discussion forum website was used in the implementation of this project, specifically the freely available Python code was studied and modified to create this project run.py file, link to original code can be found here: https://discuss.codecademy.com/t/python-battleship-game/679583
+- gbrough github repository "battleship" was used in the implementation of this project, specifically the repository Python code was studied and modified to create this project run.py file, link to original github repository code can be found here: https://github.com/gbrough/battleship/tree/main
+- VJMonk github repository "Battleship-terminal-game" was used in the implementation of this project, specifically the repository Python code was studied and modified to create this project run.py file, link to original github repository code can be found here: https://github.com/VJMonk/Battleship-terminal-game/tree/main
+- Wikipedia for battleship game board layout, website link can be fund here: https://en.wikipedia.org/wiki/Battleship_(game)
 - Code Institute tutors, provided learning material, Student Care team and Slack community members for their advice, recommendations, support and help
+- Code Institute tutor Julia Konovalova, providing deployment instruction to deploy Python code to the online platform Render
