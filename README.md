@@ -1,21 +1,33 @@
 # Battleships Game
 
 ## Description
-This is the Battleships Game project, a program with the purpose of offering ?????>
+This is the Battleships Game project, a program with the purpose of offering a different version of the game of Battleship to the user, challenging them with having both luck and strategy to win the game.  
 
+## How To Play
+In this version of the Battleship game a player plays against a computer opponent with both player's randomly generated game boards
+Each Players squares they select during the game are marked either with an - for a Miss, or an X for a Hit on the opponent's ship
+The Player and the computer take turns guessing where the opponent's ships are to sink all the opponent's remaining battleships
+The winner is whoever sinks all their opponent's battleships first
 
 ## Features
 
-### Home Page
-#### Header section
-- ??????>
+### Existing Features
+- Random board generation
+    - Both the player's and the opponent's ships are randomly placed on each game board
+    - The player cannot see the opponent's ships until the hit a correct square in the game
+- Intruction message
+    - Instructions summary given to the user on how to use the program and play the game
+    - Also a reminder they can exit the program at any time by closing the terminal
+- Input validation and error checking
+    - Player cannot enter an invalid player name
+    - Player cannot enter numbers too low or too high
+    - Player cannot enter letter past I
+    - Player cannot enter text or special characters for row numbers
+    - Player cannot enter numbers or special characters for column letters
 
-#### Main section
-- ??????>
 
-#### Footer section
-- ??????>
-
+### Future Features
+- Allow player to place their ships manually
 
 ## Technologies Used
 - HTML was used as the foundation coding of this site
